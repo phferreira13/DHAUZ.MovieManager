@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DHAUZ.MovieManager", "DHAUZ.MovieManager\DHAUZ.MovieManager.csproj", "{75487FA8-6E29-41DB-B7B5-568177768883}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Application", "01 - Application", "{14CDB7ED-C834-4855-ADFA-5E7EC879D2AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Domain", "02 - Domain", "{166C2062-B348-48FC-BA51-6AFC6F8344BA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DHAUZ.MovieManager.Domain", "DHAUZ.MovieManager.Domain\DHAUZ.MovieManager.Domain.csproj", "{C3DC4B83-8284-4183-9528-0E3BA1E0827E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Infra", "03 - Infra", "{20DE305C-48F9-4D1E-B60C-E32A931CBEBC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DHAUZ.MovieManager.Infra", "DHAUZ.MovieManager.Infra\DHAUZ.MovieManager.Infra.csproj", "{9B73613A-32E9-4087-8FCD-A820E669B056}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DHAUZ.MovieManager.HTTPClient", "DHAUZ.MovieManager.HTTPClient\DHAUZ.MovieManager.HTTPClient.csproj", "{D92123ED-66FE-4DF4-9168-C71F3B1033D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DHAUZ.MovieManager.Domain.Shared", "DHAUZ.MovieManager.Domain.Shared\DHAUZ.MovieManager.Domain.Shared.csproj", "{E2137C7D-F4F3-4BCF-BEA5-63831DA2BC1D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0127A716-F3B1-4630-BD41-03A8C26882E1}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75487FA8-6E29-41DB-B7B5-568177768883}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75487FA8-6E29-41DB-B7B5-568177768883}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75487FA8-6E29-41DB-B7B5-568177768883}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75487FA8-6E29-41DB-B7B5-568177768883}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3DC4B83-8284-4183-9528-0E3BA1E0827E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3DC4B83-8284-4183-9528-0E3BA1E0827E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3DC4B83-8284-4183-9528-0E3BA1E0827E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3DC4B83-8284-4183-9528-0E3BA1E0827E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B73613A-32E9-4087-8FCD-A820E669B056}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B73613A-32E9-4087-8FCD-A820E669B056}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B73613A-32E9-4087-8FCD-A820E669B056}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B73613A-32E9-4087-8FCD-A820E669B056}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D92123ED-66FE-4DF4-9168-C71F3B1033D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D92123ED-66FE-4DF4-9168-C71F3B1033D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D92123ED-66FE-4DF4-9168-C71F3B1033D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D92123ED-66FE-4DF4-9168-C71F3B1033D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2137C7D-F4F3-4BCF-BEA5-63831DA2BC1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2137C7D-F4F3-4BCF-BEA5-63831DA2BC1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2137C7D-F4F3-4BCF-BEA5-63831DA2BC1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2137C7D-F4F3-4BCF-BEA5-63831DA2BC1D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{75487FA8-6E29-41DB-B7B5-568177768883} = {14CDB7ED-C834-4855-ADFA-5E7EC879D2AC}
+		{C3DC4B83-8284-4183-9528-0E3BA1E0827E} = {166C2062-B348-48FC-BA51-6AFC6F8344BA}
+		{9B73613A-32E9-4087-8FCD-A820E669B056} = {20DE305C-48F9-4D1E-B60C-E32A931CBEBC}
+		{D92123ED-66FE-4DF4-9168-C71F3B1033D1} = {20DE305C-48F9-4D1E-B60C-E32A931CBEBC}
+		{E2137C7D-F4F3-4BCF-BEA5-63831DA2BC1D} = {166C2062-B348-48FC-BA51-6AFC6F8344BA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25FE84F4-E9AA-431A-B166-8A1E70E1B5A7}
+	EndGlobalSection
+EndGlobal
