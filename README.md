@@ -4,9 +4,14 @@ Desafio para área de Desenvolvimento – Back-End
 
 API para gerenciar filmes assistidos, utilizando como fonte externa para carregar as informações dos filmes o OMDB.
 
-O Caminho da API do OMDB deve ser configurado no Appsettings.json.
-
 Atualmente utilizando MySQL como banco de dados.
+
+## Antes de iniciar
+
+- O Caminho da API do OMDB e também a API Key, devem ser configurados no appsettings.json.
+- Definir a connection string no appsettings.json para o banco MySQL.
+- No primeiro uso, rodar o comando Update-database para que o sistema aplique as migrations no banco.
+
 
 ## ROTAS
 ### (GET) api/Movie 
